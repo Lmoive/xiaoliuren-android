@@ -12,6 +12,9 @@
 - 六种结果按钮：大安、留连、速喜、赤口、小吉、空亡
 - GitHub Actions 自动编译 Debug APK
 
+<img width="1145" height="1374" alt="中文手相标注图" src="https://github.com/user-attachments/assets/9d5c5583-9416-4271-8629-835afef9e5a1" />
+
+
 ## 计算映射
 | 余数 | 结果 |
 |---:|---|
