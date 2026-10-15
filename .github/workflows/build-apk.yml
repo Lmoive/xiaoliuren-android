@@ -1,17 +1,13 @@
-
 name: Build Android APK
 
 on:
   workflow_dispatch:
   push:
-    branches:
-      - main
-      - master
+    branches: [ main, master ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -34,5 +30,5 @@ jobs:
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: xiaoliuren-debug-apk
+          name: luckeycount-debug-apk
           path: xiaoliuren-android-project/app/build/outputs/apk/debug/app-debug.apk
