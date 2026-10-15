@@ -280,7 +280,7 @@ class MainActivity : Activity() {
         }
 
         val chars = raw.filter { it in strokeMap.keys }.toList()
-        val unknown = raw.filter { it.isLetter() && it !in strokeMap.keys }.distinct()
+        val unknown = raw.filter { it.isLetter() && it !in strokeMap.keys }.toList().distinct()
         if (chars.isEmpty() || unknown.isNotEmpty()) {
             strokeResultText.text = if (unknown.isNotEmpty()) {
                 "暂时无法自动识别：${unknown.joinToString("、")}。可直接输入这些字的笔画数字，例如：8，12，6。"
