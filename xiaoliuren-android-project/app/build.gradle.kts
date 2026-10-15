@@ -29,5 +29,5 @@ android {
 }
 
 dependencies {
-    implementation("com.nlf.calendar:lunar:1.7.3")
+    implementation("cn.6tail:lunar:1.7.7")
 }
