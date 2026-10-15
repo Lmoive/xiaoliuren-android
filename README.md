@@ -1,4 +1,4 @@
-# 小六壬测算 Android App
+# Luckey小六壬测算 Android App
 
 一个原生 Kotlin Android 应用，根据用户提供的图片公式计算小六壬结果。
 
